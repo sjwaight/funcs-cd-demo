@@ -19,8 +19,6 @@ namespace Siliconvalve.FunctionDemo01
                 message.AddContent("text/plain", "I'll send an SOS to the world.");
                 message.AddTo(GetEnvironmentVariable("TimerRecipient"));
                 message.Subject = "Message in a Bottle.";
-
-                throw new PlatformNotSupportedException("Can't run, not supported");
             }
             catch (Exception ex)
             {

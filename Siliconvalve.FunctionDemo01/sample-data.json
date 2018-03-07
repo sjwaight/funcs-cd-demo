@@ -9,9 +9,9 @@
     "recipient": "swazdemo01@outlook.com",
     "quote": "Age is something that doesn't matter, unless you are a cheese. - Luis Bunuel."
   },
-  {
-    "id": "x",
-    "recipient": "swazdemo01@outlook.com",
-    "quote": "To be or not to be. That's not really a question. - Jean-Luc Godard."
-  }
+    {
+      "id": "x",
+      "recipient": "swazdemo01@outlook.com",
+      "quote": "To be or not to be. That's not really a question. - Jean-Luc Godard."
+    }
 ]

@@ -8,7 +8,7 @@ namespace Siliconvalve.FunctionDemo01
     public static class TimerJobSample
     {
         [FunctionName("TimerJobSample")]
-        public static void Run([TimerTrigger("*/15 * * * * *"),Disable]TimerInfo myTimer, [SendGrid(From = "%NotificationsSender%")] out SendGridMessage message, TraceWriter log)
+        public static void Run([TimerTrigger("*/10 * * * * *"),Disable]TimerInfo myTimer, [SendGrid(From = "%NotificationsSender%")] out SendGridMessage message, TraceWriter log)
         {
             log.Info($"C# Timer trigger function executed at: {DateTimeOffset.UtcNow}");
 
@@ -16,9 +16,9 @@ namespace Siliconvalve.FunctionDemo01
 
             try
             {
-                message.AddContent("text/plain", "I'll send an SOS to the world.");
+                message.AddContent("text/plain", "Read the blog at https://blog.siliconvalve.com/");
                 message.AddTo(GetEnvironmentVariable("TimerRecipient"));
-                message.Subject = "Message in a Bottle.";
+                message.Subject = "The blog to read for Azure info.";
             }
             catch (Exception ex)
             {

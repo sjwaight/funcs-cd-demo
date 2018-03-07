@@ -1,5 +1,17 @@
-﻿{
-  "id": "x",
-  "recipient": "swfundemo01@mailinator.com",
-  "quote": "It's amazing that the amount of news that happens in the world every day always just exactly fits the newspaper. - Jerry Seinfeld."
-}
+﻿[
+  {
+    "id": "x",
+    "recipient": "swazdemo01@outlook.com",
+    "quote": "It's amazing that the amount of news that happens in the world every day always just exactly fits the newspaper. - Jerry Seinfeld."
+  },
+  {
+    "id": "x",
+    "recipient": "swazdemo01@outlook.com",
+    "quote": "Age is something that doesn't matter, unless you are a cheese. - Luis Bunuel."
+  },
+  {
+    "id": "x",
+    "recipient": "swazdemo01@outlook.com",
+    "quote": "To be or not to be. That's not really a question. - Jean-Luc Godard."
+  }
+]

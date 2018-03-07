@@ -8,7 +8,7 @@ namespace Siliconvalve.FunctionDemo01
     public static class TimerJobSample
     {
         [FunctionName("TimerJobSample")]
-        public static void Run([TimerTrigger("*/10 * * * * *")]TimerInfo myTimer, [SendGrid(From = "%NotificationsSender%")] out SendGridMessage message, TraceWriter log)
+        public static void Run([TimerTrigger("*/15 * * * * *"),Disable]TimerInfo myTimer, [SendGrid(From = "%NotificationsSender%")] out SendGridMessage message, TraceWriter log)
         {
             log.Info($"C# Timer trigger function executed at: {DateTimeOffset.UtcNow}");
 

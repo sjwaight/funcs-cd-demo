@@ -28,4 +28,6 @@ The default gitignore blocks the upload of the local settings file (which is a g
 
 *Note:* if you are planning on deploying to a Consumption Plan, make sure you set the value of [WEBSITE_CONTENTAZUREFILECONNECTIONSTRING](https://docs.microsoft.com/en-us/azure/azure-functions/functions-app-settings#websitecontentazurefileconnectionstring). If you don't set this value (or delete it on deployment) your Function App will stop working after initial deployment.
 
-[See the offical docs](https://docs.microsoft.com/en-us/azure/azure-functions/functions-app-settings) for the options you have for App Settings for Functions.
+[See the official docs](https://docs.microsoft.com/en-us/azure/azure-functions/functions-app-settings) for the options you have for App Settings for Functions.
+
+I recorded a walk-through video you can watch to understand how this all hangs together: https://youtu.be/bXYL8ycLqX0

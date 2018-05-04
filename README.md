@@ -4,7 +4,10 @@ This is a simple Azure Functions project (requires Visual Studio 2017 + Function
 
 It is used to demonstrate how we can deploy to Azure using Visual Studio Team Services (VSTS) even when the source repository is Github.
 
-I'll update this repository once the video / blog is up.
+You can learn more about how to use this repository by:
+
+- Watching [The DevOps Lab episode](https://channel9.msdn.com/Shows/DevOps-Lab/Deploying-Azure-Functions-with-VSTS) where we cover how it works.
+- Read the [detailed blog](https://blog.siliconvalve.com/2018/05/03/multi-environment-deployments-for-compiled-c-azure-functions-with-vsts-release-management/) on how you can deploy and use it.
 
 The default gitignore blocks the upload of the local settings file (which is a good idea), so to help you get started here is a copy of the settings file that shows which App Settings you will need to deploy to get the Functions in this sample to work.
 
